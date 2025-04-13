@@ -81,6 +81,13 @@ class TaskManager {
     // 4. Sort tasks by priority
     public void sortTasksByPriority() {
         // TODO: Implement sorting by priority logic
+        Collections.sort(tasks, new Comparator<Task>() {
+            @Override
+            public int compare(Task t1, Task t2) {
+                // Sorting in descending order (HIGH > MEDIUM > LOW)
+                return t2.getPriority().compareTo(t1.getPriority());
+            }
+        });
     }
 
     // 5. Filter tasks by category
