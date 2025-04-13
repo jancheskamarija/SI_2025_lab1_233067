@@ -1,0 +1,17 @@
+*   d45b06e Merge branch 'master' of https://github.com/jancheskamarija/SI_2025_lab1_233067
+|\  
+| *   94ca0c0 Merge pull request #12 from jancheskamarija/6-find-the-highest-priority-unfinished-task
+| |\  
+| | * 79ac224 Implementirana e metodata getMostUrgentTasks()
+| * |   ef95a5d Merge pull request #10 from jancheskamarija/8-mark-a-task-as-completed-by-name
+| |\ \  
+| | |/  
+| |/|   
+* | | d31c80c Sort tasks by priority
+| |/  
+|/|   
+* | ddc0ac5 Имплементирана е функцијата markTaskCompleted
+|/  
+* 4f5d16e Initial commit
+* 6f86ebb Add starter code
+* e2f4152 Initial commit
